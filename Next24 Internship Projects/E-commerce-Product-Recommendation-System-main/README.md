@@ -1,15 +1,19 @@
-# Recommender-System-Based-on-Purchasing-Behavior-Data
+# Product Recommendation System
 
-Data Source:
+## Project Description
+This project focuses on building a product recommendation system that suggests items to users based on their preferences and past interactions. The system leverages collaborative filtering and content-based filtering techniques.
 
-https://www.kaggle.com/mkechinov/ecommerce-events-history-in-cosmetics-shop
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Surprise (for collaborative filtering)
+- Matplotlib
 
-- Built recommender systems for recommending products and brands to online cosmetics shop users using popularity model, item-based Collaborative Filtering, Matrix Factorization with Implicit Alternative Least Squares, and Neural Networks.
-
-- User-Product Matrix has a sparsity of 99.9285%
-
-- User-Brand Matrix has a sparsity of 98.8192%
-
-![GitHub Logo](/product_cnt.png)
-
-![GitHub Logo](/brand_cnt.png)
+## Key Features
+- Data preprocessing and cleaning
+- Collaborative filtering implementation
+- Content-based filtering implementation
+- Evaluation of the recommendation system
+- Visualization of recommendations
